@@ -45,10 +45,13 @@
     font-size: 2.1rem!important;
   }
   .game{
-    width: 20rem!important;
+    width: 16.5rem!important;
   }
   .board{
-    height: 20rem!important;
+    height: 16.5rem!important;
+  }
+  .square{
+    font-size: 3.7rem!important;
   }
   .game-status-text{
     font-size: 1.5rem!important;
@@ -60,9 +63,6 @@
   .item{
     height: 7.312rem!important;
   }
-  .square{
-    font-size: 4.3rem!important;
-  }
 }
 @media(max-width:350px){
   .choice-title{
@@ -70,15 +70,6 @@
   }
   .header{
     font-size: 1.8rem!important;
-  }
-  .game{
-    width: 16.5rem!important;
-  }
-  .board{
-    height: 16.5rem!important;
-  }
-  .square{
-    font-size: 3.7rem!important;
   }
   .game-status-text{
     font-size: 1.2rem!important;
