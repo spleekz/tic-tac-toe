@@ -5,7 +5,7 @@ import Choice from './Choice';
 let mapStateToProps = (state) => {
   return {
     gameOnProgress: state.gameOnProgress,
-    isX:state.isX
+    isX: state.isX
   };
 };
 export default connect(mapStateToProps, { setItem, startGame })(Choice);
