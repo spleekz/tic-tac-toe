@@ -1,0 +1,43 @@
+.choice{
+  margin:0 auto;
+  text-align: center;
+}
+.choice-title{
+  margin-top:1.5625rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding:0.625rem;
+}
+.choice-field{
+  margin: 3.125rem auto;
+  width: 31.25rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 22.1875rem;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 21.25rem;
+  border-radius: 1rem;
+  background-color: #edeef0;
+  color:#6c757d;
+  transition: all 0.24s;
+}
+.item:hover {
+  cursor: pointer;
+  width: 47%;
+  height: 22.1875rem;
+}
+.item-active {
+  background-color: #6c757d;
+  color:#edeef0;
+  width: 47%;
+  height: 22.1875rem;
+}
+.item-content{
+  font-size: 5rem;
+}

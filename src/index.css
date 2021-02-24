@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media(max-width:590px){
+  .choice-field{
+    width:20.25rem!important;
+    height: 9.11rem!important;
+  }
+  .item{
+    height: 9.11rem!important;
+  }
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media(max-width:550px){
+  .game{
+    width: 25rem!important;
+  }
+  .board{
+    height: 25rem!important;
+  }
+  .square{
+    font-size: 5.3rem!important;
+  }
+  .game-status-text{
+    font-size: 2rem!important;
+  }
+}
+@media(max-width:510px){
+  .header{
+    font-size: 2.8rem!important;
+  }
+}
+@media (max-width:450px){
+  .game{
+    width: 21.875rem!important;
+  }
+  .game-status-text{
+    font-size: 1.6rem!important;
+  }
+  .board{
+    height: 21.875rem!important;
+  }
+  .square{
+    font-size: 4.5rem!important;
+  }
+}
+@media(max-width:390px){
+  .header{
+    font-size: 2.1rem!important;
+  }
+  .game{
+    width: 20rem!important;
+  }
+  .board{
+    height: 20rem!important;
+  }
+  .game-status-text{
+    font-size: 1.5rem!important;
+  }
+  .choice-field{
+    width:16.25rem!important;
+    height: 7.312rem!important;
+  }
+  .item{
+    height: 7.312rem!important;
+  }
+  .square{
+    font-size: 4.3rem!important;
+  }
+}
+@media(max-width:350px){
+  .choice-title{
+    font-size: 1.9rem!important;
+  }
+  .header{
+    font-size: 1.8rem!important;
+  }
+  .game{
+    width: 16.5rem!important;
+  }
+  .board{
+    height: 16.5rem!important;
+  }
+  .square{
+    font-size: 3.7rem!important;
+  }
+  .game-status-text{
+    font-size: 1.2rem!important;
+  }
 }
